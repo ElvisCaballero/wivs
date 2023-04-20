@@ -1,0 +1,24 @@
+{
+  "name": "wivs",
+  "description": "WordPress Svelte starter with Inertia.js",
+  "author": "Caballero",
+  "type": "module",
+  "license": "ICS",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@inertiajs/svelte": "^1.0.2",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "autoprefixer": "^10.4.14",
+    "bulma": "^0.9.4",
+    "postcss": "^8.4.21",
+    "postcss-assets": "^6.0.0",
+    "postcss-load-config": "^4.0.1",
+    "sass": "^1.59.2",
+    "svelte": "^3.58.0",
+    "svelte-preprocess": "^5.0.2",
+    "vite": "^4.1.4"
+  }
+}

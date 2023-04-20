@@ -1,0 +1,16 @@
+# Vite artifacts
+.vite
+
+# Hot file
+hot
+
+# Generic
+/vendor
+
+# Node modules
+/dist/*
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
