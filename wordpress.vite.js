@@ -7,7 +7,7 @@ export default function wordpress() {
     name: 'wordpress',
     config: (userConfig, { command, mode }) => {
       return {
-        base: userConfig.base ?? '/themes/base/public/',
+        base: userConfig.base ?? '/app/themes/base/public/',
         build: {
           manifest: userConfig.build?.manifest ?? true,
           outDir: userConfig.build?.outDir ?? 'dist',
